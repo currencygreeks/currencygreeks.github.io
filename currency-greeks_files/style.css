@@ -1,8 +1,21 @@
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
+/*@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");*/
+/*@import url("fonts/AlmeriaRegular.ttf");*/
+@font-face {
+  font-family: 'Almeria';
+  src: url('fonts/AlmeriaRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Almeria';
+  src: url('fonts/AlmeriaBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 body {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
+  font-family: "Almeria", sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: #121212; }
 
@@ -52,7 +65,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Almeria", sans-serif;
   font-weight: 700;
   color: #121212;
   margin: 0px; }
@@ -143,7 +156,7 @@ p {
   margin-top: 24px; }
 
 /*===========================
-    2.HEADER css 
+    2.HEADER css
 ===========================*/
 /*===== NAVBAR ONE =====*/
 .navgition {
@@ -154,23 +167,23 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
   .navgition.navgition-transparent {
-    background-color: transparent;
-    position: absolute;
+    background-color: #fff;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 99; }
-  .navgition.sticky {
-    position: fixed;
-    background-color: #fff;
-    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
-    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+  /*.navgition.sticky {*/
+  /*  position: fixed;*/
+  /*  background-color: #fff;*/
+  /*  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);*/
+  /*  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);*/
+  /*  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);*/
+  /*  -webkit-transition: all 0.3s ease-out 0s;*/
+  /*  -moz-transition: all 0.3s ease-out 0s;*/
+  /*  -ms-transition: all 0.3s ease-out 0s;*/
+  /*  -o-transition: all 0.3s ease-out 0s;*/
+  /*  transition: all 0.3s ease-out 0s; }*/
   .navgition .navbar {
     position: relative;
     padding: 0; }
@@ -418,7 +431,7 @@ p {
       width: 100%; }
 
 /*===========================
-      3.SERVICES css 
+      3.SERVICES css
 ===========================*/
 .services-area {
   padding-top: 120px;
@@ -499,7 +512,7 @@ p {
       width: 100%; }
 
 /*===========================
-      4.PRICING css 
+      4.PRICING css
 ===========================*/
 .pricing-area {
   padding-top: 120px;
@@ -637,7 +650,7 @@ p {
     width: 100%; }
 
 /*===========================
-    5.CALL TO ACTION css 
+    5.CALL TO ACTION css
 ===========================*/
 .call-to-action {
   background-color: #0067f4;
@@ -750,7 +763,7 @@ p {
         color: #fff; }
 
 /*===========================
-    6.CALL TO ACTION css 
+    6.CALL TO ACTION css
 ===========================*/
 .contact-area {
   padding-top: 120px;
@@ -826,7 +839,7 @@ p.form-message.error {
   color: #f00; }
 
 /*===========================
-       7.FOOTER css 
+       7.FOOTER css
 ===========================*/
 .footer-area {
   background-color: #f4f6f7; }
